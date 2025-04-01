@@ -8,7 +8,7 @@ dbt_project:
       schema: public
       threads: 100
       type: snowflake
-      user: dbt_hol_user
+      user: RAFICK997
       warehouse: vwh_dbt_hol_dev
     prod:
       account: CPYPVRL-FC01651
@@ -18,6 +18,6 @@ dbt_project:
       schema: public
       threads: 100
       type: snowflake
-      user: dbt_hol_user
+      user: RAFICK997
       warehouse: vwh_dbt_hol_prod
   target: dev
